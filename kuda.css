@@ -1,0 +1,554 @@
+@media only screen and (min-width: 992px){
+    body{
+        background-image: white;
+        margin: 0%;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    
+    .navbar-section{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        box-shadow: 0rem 1rem 3rem 0.5rem rgb(191, 176, 231);
+        border-bottom: thin outset rgb(255, 255, 255) ;
+    }
+    .navbar{
+        margin: 0%;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 5rem;
+    }
+
+    .navbar-2 i{
+        display:none;
+    }
+    
+    .navbar-1{
+        display: flex;
+        justify-content: flex-start;
+        width: 65%;
+    }
+    
+    .navbar-1 img{
+        width: 20%;
+        height: 90%;
+        margin: 0% 2%;
+        padding-bottom: 0.5%;
+    }
+    
+    .navbar-1 ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        height: 40%;
+        margin: 1% 0.5%;
+        padding-top: 1.5%;
+    
+    }
+    
+    .navbar-1 li{
+        float: left;
+        width: 40%;
+        height: 60%;
+        text-align: center;
+        
+    }
+    
+    .navbar-1 li:hover{
+        border-radius: 2rem;
+        background-color:rgb(191, 176, 231) ;
+        color: azure;
+        transition-duration: 2s;
+        scale: 1.1;
+    }
+    
+    .navbar-1 ul li a{
+        text-decoration: none;
+        width: 50%;
+    }
+    
+    .navbar-2{
+        display: flex;
+        justify-content: space-evenly;
+        min-width: 20%;
+        height: 5%;
+        margin: 2% 3% 1% 0%;
+        /* padding: 1.5% 1%; */
+    }
+    
+     .navbar-2 li{
+        list-style-type: none;
+         /* margin: 0.5% 2%; */
+        padding: 0% 4%;
+        width: 70%;
+        
+    }
+    
+    .navbar-2 li:hover{
+        color: azure;
+        transition-duration: 2s;
+        scale: 1.1;
+    }
+    
+    .navbar-2 img{
+        width: 45%;
+        margin: 0 3%;
+    }
+    
+    .navbar-2 a{
+        text-decoration: none;
+    }
+    
+    button{
+        width: 100%;
+        text-align: center;
+        background-color: rgb(66, 11, 117);
+        font-weight: bold;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 15% 2%;
+       
+    } 
+    
+    .text-area{
+        margin: 5rem 4rem;
+    }
+    
+    .main-body{
+        margin: 5rem;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .main-body-info{
+        width: 100%;
+    }
+    
+    .main-body-img{
+        width: 100%;
+    }
+    
+    .main-p1{
+        font-weight:800;
+        font-size: 3.5rem;
+        color: rgb(66, 11, 117) ;
+    }
+    
+    .main-p2{
+        font-weight:200;
+        font-size: 1.5rem;
+        font-family: 'Source Code Pro', monospace;
+    }
+    
+    .main-body-info img{
+        padding: 1rem 0.2rem;
+    }
+    
+    .license p{
+        display: inline ;
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin-right: 2%;
+        opacity: 0.6;
+    }
+    
+    .license-1{
+    margin-left: 0.5rem;
+    } 
+    
+    .license-2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(19, 19, 231);
+    opacity: 0.9;
+    }
+
+    .info2{
+       display: none; 
+    }
+
+    .info2{
+        margin: 10% 2%;
+        height: 90rem;
+        display: none;
+       }
+   
+       .info2-1{
+           width: 100%;
+           height: 3rem;
+           position: relative;
+           border-radius: 3rem;
+           background-color: rgb(255, 255, 255);
+           box-shadow: 0rem 1rem 3rem 0.5rem #e3e0eb;
+           margin: 1.5rem 0;
+       }
+   
+       .info2 i{
+           position: absolute;
+           left: 5%;
+           padding: 1rem 0 0 0;
+       }
+   
+       .info2-1 p{
+          position: absolute;
+          right: 2%;
+          top: 10%;
+          width: 80%;
+          font-weight: 600;
+          font-size: 0.6rem;
+          font-family: 'Source Code Pro', monospace;
+       }
+   
+       .customercare{
+         text-align: center;
+         margin-top: 5rem;
+         display:none;
+
+       }
+   
+       .customercare h2{
+           font-family:'Source Code Pro', monospace ;
+           font-weight: 900;
+           font-size: 1.2rem;
+           width: 100%;
+           margin: auto;
+           color: purple;
+       }
+   
+       .customercare img{
+           width: 100%;
+           margin: 3rem 0;
+       }
+   
+       .customercare p{
+           text-align: center;
+           font-weight: 600;
+           font-size: 0.6rem;
+           font-family: 'Source Code Pro', monospace;
+           padding: 3% 0.5%;
+       }
+   
+       hr{
+           opacity: 0.5;
+           display: none;
+       }
+   
+       .footer{
+           height: 32rem;
+           display: none;
+           grid-template-columns: 50% 50%;
+           padding: 2rem 0 ;
+           font-size: 0.9rem;
+       }
+   
+       .footer ul{
+           padding-left: 0;
+       }
+   
+       .footer ul li{
+           list-style: none;
+           padding: 0.5rem 0;
+       }
+   
+       .footer a{
+           text-decoration: none;
+       }
+   
+       footer{
+           position: relative;
+           height: 3rem;
+           font-display: none;
+          
+       }
+   
+       footer .fa-envelope{
+           padding: 2%;
+           position: absolute;
+           left: 10%;
+       }
+   
+       footer .fa-instagram{
+           padding: 2%;
+           position: absolute;
+           left: 50%;
+       }
+       footer .fa-phone{
+           padding: 2%;
+           position: absolute;
+           left: 30%;
+       }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 991px){
+    body{
+        background-image: white;
+        margin: 0%;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    
+    .navbar-section{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        box-shadow: 0rem 1rem 3rem 0.5rem rgb(191, 176, 231);
+        border-bottom: thin outset rgb(255, 255, 255) ;
+    }
+    .navbar{
+        margin: 0%;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 8rem;
+        position: sticky;
+    }
+    
+    .navbar-1{
+        display: flex;
+        justify-content: flex-start;
+        width: 65%;
+    }
+
+    .fa-bars{
+        display:inline;
+        transition-duration: 2s;
+        scale: 1.1;
+        color: rgb(142, 69, 211);
+
+    }
+    
+    .navbar-1 img{
+        width: 60%;
+        height: 90%;
+        margin: 0% 2%;
+        padding-bottom: 0.5%;
+    }
+    
+    .navbar-1 ul{
+        display: none;
+
+    
+    }
+    
+    .navbar-1 li{
+      display: none;
+        
+    }
+    
+    
+
+    
+    .navbar-2{
+        min-width: 20%;
+        height: 70%;
+        margin: 5% 3% 0 0%;
+         padding: 5% 0 0 0;
+    }
+    
+     .navbar-2 li{
+        display: none;
+        
+    }
+    
+    
+    .navbar-2 img{
+        width: 45%;
+        margin: 0 3%;
+    }
+    
+    .navbar-2 a{
+        text-decoration: none;
+    }
+    
+    button{
+        width: 100%;
+        text-align: center;
+        background-color: rgb(66, 11, 117);
+        font-weight: bold;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 15% 2%;
+       
+    } 
+    
+    .text-area{
+        margin: 5rem 2rem;
+        height: 90rem;
+    }
+    
+    .main-body{
+        margin: 0.5rem;
+        display: block;
+    }
+    
+    .main-body-info{
+        width: 100%;
+    }
+    
+    .main-body-img{
+        width: 100%;
+    }
+    
+    .main-p1{
+        width: 100%;
+        font-weight:900;
+        font-size: 2.0rem;
+        text-align: center;
+        color: rgb(66, 11, 117);
+        padding: 0%;
+    }
+    
+    .main-p2{
+        font-weight:200;
+        font-size: 1rem;
+        font-family: 'Source Code Pro', monospace;
+    }
+    
+    .main-body-info img{
+        padding: 1rem 0.2rem;
+    
+    }
+    
+    .license p{
+        display: inline ;
+        font-size: 0.6rem;
+        font-weight: 600;
+        margin-right: 3%;
+        opacity: 0.6;
+    }
+    
+    .license-1{
+    margin-left: 0.5rem;
+    } 
+    
+    .license-2{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(19, 19, 231);
+    opacity: 0.9;
+    }
+
+    .main-body-img{
+        display: block;
+        width: 100%;
+        margin-top: 20%;
+    }
+
+    .main-body-img img{
+        width: inherit;
+    }
+
+    .info2{
+     margin: 10% 2%;
+     height: 90rem;
+    }
+
+    .info2-1{
+        width: 100%;
+        height: 3rem;
+        position: relative;
+        border-radius: 3rem;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0rem 1rem 3rem 0.5rem #e3e0eb;
+        margin: 1.5rem 0;
+    }
+
+    .info2 i{
+        position: absolute;
+        left: 5%;
+        padding: 1rem 0 0 0;
+    }
+
+    .info2-1 p{
+       position: absolute;
+       right: 2%;
+       top: 10%;
+       width: 80%;
+       font-weight: 600;
+       font-size: 0.6rem;
+       font-family: 'Source Code Pro', monospace;
+    }
+
+    .customercare{
+      text-align: center;
+      margin-top: 5rem;
+      display: block;
+    }
+
+    .customercare h2{
+        font-family:'Source Code Pro', monospace ;
+        font-weight: 900;
+        font-size: 1.2rem;
+        width: 100%;
+        margin: auto;
+        color: purple;
+    }
+
+    .customercare img{
+        width: 100%;
+        margin: 3rem 0;
+    }
+
+    .customercare p{
+        text-align: center;
+        font-weight: 600;
+        font-size: 0.6rem;
+        font-family: 'Source Code Pro', monospace;
+        padding: 3% 0.5%;
+    }
+
+    hr{
+        opacity: 0.5;
+    }
+
+    .footer{
+        height: 32rem;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 2rem 0 ;
+        font-size: 0.9rem;
+    }
+
+    .footer ul{
+        padding-left: 0;
+    }
+
+    .footer ul li{
+        list-style: none;
+        padding: 0.5rem 0;
+    }
+
+    .footer a{
+        text-decoration: none;
+    }
+
+    footer{
+        position: relative;
+        height: 3rem;
+       
+    }
+
+    footer .fa-envelope{
+        padding: 2%;
+        position: absolute;
+        left: 10%;
+    }
+
+    footer .fa-instagram{
+        padding: 2%;
+        position: absolute;
+        left: 50%;
+    }
+    footer .fa-phone{
+        padding: 2%;
+        position: absolute;
+        left: 30%;
+    }
+
+
+}
